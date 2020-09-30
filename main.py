@@ -1,5 +1,5 @@
-mes=int(input("Dame tu Mes de Nacimiento: "))
 dia=int(input("Dame tu Dia de Nacimiento: "))
+mes=int(input("Dame tu Mes de Nacimiento: "))
 
 if mes==1 and dia<20 or mes==12 and dia>22:
     print("capricornio")
